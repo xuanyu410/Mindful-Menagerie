@@ -11014,7 +11014,10 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("https://github.com/szuyu830/Mindful-Menagerie/blob/master/dist/assets/img/bg-masthead.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), 
+                url("https://raw.githubusercontent.com/szuyu830/Mindful-Menagerie/master/dist/assets/img/bg-masthead.jpg");
+    background-size: cover; /* 確保圖片填滿整個容器 */
+    background-position: center; /* 使圖片在容器中居中 */;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
