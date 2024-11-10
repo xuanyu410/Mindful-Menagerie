@@ -78,7 +78,9 @@
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fbf1cd;
 }
-
+.bg-light {
+    background-color: #F9E7E5 !important;
+}
 *,
 *::before,
 *::after {
