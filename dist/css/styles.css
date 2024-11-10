@@ -10834,6 +10834,9 @@ html {
 
 .content-section {
   height: 100vh;
+  display: flex;
+  align-items: center;  
+  justify-content: center;
 }
 
 .content-section-heading h2, .content-section-heading .h2 {
